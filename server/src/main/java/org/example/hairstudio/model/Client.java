@@ -7,7 +7,6 @@ import javax.persistence.*;
 public class Client {
 
     private int clientId;
-
     private String firstName;
     private String lastName;
     private String email;

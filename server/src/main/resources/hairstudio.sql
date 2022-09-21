@@ -40,7 +40,7 @@ CREATE TABLE appointment (
 );
 
 INSERT INTO client (first_name, last_name, email, phone_number, address, address2, city, state_abbreviation, postal_code, reminder_emails)
-VALUES ('Kevin', 'Marcum', 'marcum.k@gmail.com', '937-750-4071', '500 Landis Ct.', 'Apt. 208', 'Asheville', 'NC', '28806', true);
+VALUES ('Kevin', 'Marcum', 'marcum.k@gmail.com', '555-555-5555', '500 Main St.', 'Apt. 101', 'Asheville', 'NC', '28806', true);
 
 INSERT INTO service (service_name, duration_minutes, price, description)
 VALUES ('1 Hour Cut', 60, '55.00', '60 min customized haircut (* if you got more than 4 months between haircuts or your hair is above average thickness and/or length, please see 1.5 hours.');
